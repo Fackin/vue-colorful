@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref, type Ref } from "vue";
-import ColorPicker from "./components/ColorPicker.vue";
+import ColorPicker from "../src/components/ColorPicker.vue";
 import { useBodyBackground } from "./hooks/useBodyBackground";
 import { useFaviconColor } from "./hooks/useFaviconColor";
 

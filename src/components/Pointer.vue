@@ -23,4 +23,5 @@ withDefaults(defineProps<Props>(), { top: 0.5 });
   </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+</style>

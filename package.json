@@ -1,21 +1,41 @@
 {
-  "name": "vue-colorful",
-  "private": true,
-  "version": "0.0.0",
+  "name": "vue-colorfull",
+  "version": "0.0.6",
   "type": "module",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "vue",
+    "vue-colorfull"
+  ],
+  "license": "MIT",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc -b && vite build",
+    "build2": "vite build && vue-tsc --declaration --emitDeclarationOnly",
     "preview": "vite preview"
+  },
+  "main": "./dist/vue-colorfull.umd.cjs",
+  "module": "./dist/vue-colorfull.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/vue-colorfull.js",
+      "require": "./dist/vue-colorfull.umd.cjs",
+      "types": "./dist/index.d.ts"
+    }
   },
   "dependencies": {
     "vue": "^3.5.13"
   },
   "devDependencies": {
+    "@types/node": "^22.13.5",
     "@vitejs/plugin-vue": "^5.2.1",
     "@vue/tsconfig": "^0.7.0",
     "typescript": "~5.7.2",
     "vite": "^6.1.0",
+    "vite-plugin-dts": "^4.5.0",
     "vue-tsc": "^2.2.0"
   }
 }

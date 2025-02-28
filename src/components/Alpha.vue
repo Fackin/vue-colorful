@@ -65,4 +65,5 @@ const ariaValue = computed(() => round(props.hsva.a * 100));
   </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+</style>

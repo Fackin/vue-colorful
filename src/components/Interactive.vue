@@ -75,7 +75,6 @@ const isInvalid = (
 };
 
 const handleMoveStart = (nativeEvent: MouseEvent | TouchEvent) => {
-  debugger;
   const el = container.value;
   if (!el) return;
 
@@ -116,7 +115,6 @@ const handleMove = (event: MouseEvent | TouchEvent) => {
 const handleMoveEnd = () => toggleDocumentEvents(false);
 
 const handleKeyDown = (event: KeyboardEvent) => {
-  debugger;
   const keyCode = event.which || event.keyCode;
 
   // Ignore all keys except arrow ones
@@ -160,4 +158,5 @@ function toggleDocumentEvents(state?: boolean) {
   </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+</style>

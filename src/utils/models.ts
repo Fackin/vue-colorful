@@ -25,7 +25,7 @@ import {
     rgbaToRgb,
     roundHsva,
 } from './index'
-import type { AnyColor, ColorModel, HslColor, HsvColor, HsvaColor, RgbColor, RgbaColor, ColorModelType } from '../types'
+import type { ColorModel, HslColor, HsvColor, HsvaColor, RgbColor, RgbaColor, ColorModelType } from '../types'
 
 export const rgbaColorModel: ColorModel<RgbaColor> = {
     defaultColor: { r: 0, g: 0, b: 0, a: 1 },

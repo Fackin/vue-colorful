@@ -61,3 +61,5 @@ const handleKey = (offset: Interaction) => {
     </Interactive>
   </div>
 </template>
+<style scoped>
+</style>
