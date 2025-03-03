@@ -39,7 +39,7 @@ const handleKey = (offset: Interaction) => {
 
 <template>
   <div
-    class="vue-colorful__saturation"
+    class="vue-colorfull__saturation"
     :style="{
       backgroundColor: hsvaToHslString({ h: hsva.h, s: 100, v: 100, a: 1 }),
     }"
@@ -53,7 +53,7 @@ const handleKey = (offset: Interaction) => {
       @key="handleKey"
     >
       <Pointer
-        class="vue-colorful__saturation-pointer"
+        class="vue-colorfull__saturation-pointer"
         :top="1 - hsva.v / 100"
         :left="hsva.s / 100"
         :color="hsvaToHslString(hsva)"

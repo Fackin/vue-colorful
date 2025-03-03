@@ -66,7 +66,7 @@ export const hexColorModel: ColorModel<string> = {
 export const hexaColorModel: ColorModel<string> = {
     defaultColor: '0001',
     toHsva: hexToHsva,
-    fromHsva: ({ h, s, v }) => hsvaToHex({ h, s, v, a: 1 }),
+    fromHsva: hsvaToHex,
     equal: equalHex,
 }
 

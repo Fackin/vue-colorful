@@ -45,8 +45,8 @@ const ariaValue = computed(() => round(props.hsva.a * 100));
 </script>
 
 <template>
-  <div class="vue-colorful__alpha">
-    <div className="vue-colorful__alpha-gradient" :style="gradientStyle" />
+  <div class="vue-colorfull__alpha">
+    <div className="vue-colorfull__alpha-gradient" :style="gradientStyle" />
     <Interactive
       aria-label="Alpha"
       :aria-valuetext="`${ariaValue}%`"
@@ -57,7 +57,7 @@ const ariaValue = computed(() => round(props.hsva.a * 100));
       @key="handleKey"
     >
       <Pointer
-        class="vue-colorful__alpha-pointer"
+        class="vue-colorfull__alpha-pointer"
         :left="hsva.a"
         :color="hsvaToHslaString(hsva)"
       />

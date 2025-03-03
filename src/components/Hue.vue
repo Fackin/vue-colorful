@@ -33,7 +33,7 @@ const handleKey = (offset: Interaction) => {
 </script>
 
 <template>
-  <div class="vue-colorful__hue">
+  <div class="vue-colorfull__hue">
     <Interactive
       aria-label="Hue"
       aria-valuemin="0"
@@ -43,7 +43,7 @@ const handleKey = (offset: Interaction) => {
       @key="handleKey"
     >
       <Pointer
-        class="vue-colorful__hue-pointer"
+        class="vue-colorfull__hue-pointer"
         :left="hue / 360"
         :color="hsvaToHslString({ h: hue, s: 100, v: 100, a: 1 })"
       />

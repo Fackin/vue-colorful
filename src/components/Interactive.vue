@@ -146,7 +146,7 @@ function toggleDocumentEvents(state?: boolean) {
 
 <template>
   <div
-    class="vue-colorful__interactive"
+    class="vue-colorfull__interactive"
     role="slider"
     ref="container"
     :tabIndex="0"

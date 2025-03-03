@@ -25,6 +25,9 @@ devDependencies:
   vite:
     specifier: ^6.1.0
     version: 6.2.0(@types/node@22.13.5)
+  vite-plugin-css-injected-by-js:
+    specifier: ^3.5.2
+    version: 3.5.2(vite@6.2.0)
   vite-plugin-dts:
     specifier: ^4.5.0
     version: 4.5.0(@types/node@22.13.5)(typescript@5.7.3)(vite@6.2.0)
@@ -1157,6 +1160,14 @@ packages:
     resolution: {integrity: sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==}
     dependencies:
       punycode: 2.3.1
+    dev: true
+
+  /vite-plugin-css-injected-by-js@3.5.2(vite@6.2.0):
+    resolution: {integrity: sha512-2MpU/Y+SCZyWUB6ua3HbJCrgnF0KACAsmzOQt1UvRVJCGF6S8xdA3ZUhWcWdM9ivG4I5az8PnQmwwrkC2CAQrQ==}
+    peerDependencies:
+      vite: '>2.0.0-0'
+    dependencies:
+      vite: 6.2.0(@types/node@22.13.5)
     dev: true
 
   /vite-plugin-dts@4.5.0(@types/node@22.13.5)(typescript@5.7.3)(vite@6.2.0):

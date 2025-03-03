@@ -14,7 +14,7 @@ useFaviconColor(rgbaColor);
   <div class="app-box">
     <ColorPicker style="width: 200px" v-model="rgbaColor" type="rgbaString" />
     <div class="box-left">
-      <h2>Vue-colorful 🎨</h2>
+      <h2>Vue-colorfull 🎨</h2>
       <div>A tiny color picker component for Vue apps</div>
     </div>
   </div>
